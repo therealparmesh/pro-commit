@@ -13,7 +13,7 @@ npm install --save-dev pro-commit
 
 ## Usage
 
-Add `prepare` amd `pro-commit:task` to `scripts` in `package.json`:
+Add `prepare` and `pro-commit:task` to `scripts` in `package.json`:
 
 ```json
 {

@@ -1,0 +1,30 @@
+{
+  "name": "pro-commit",
+  "version": "1.0.0",
+  "description": "Easily add a Git pre-commit hook to your Node.js project.",
+  "keywords": [
+    "commit",
+    "git",
+    "hook",
+    "pre-commit",
+    "precommit",
+    "pro-commit"
+  ],
+  "repository": "github:therealparmesh/pro-commit",
+  "license": "MIT",
+  "author": "Parmesh Krishen",
+  "bin": "cli.js",
+  "scripts": {
+    "format": "npx prettier --write *.{js,md}",
+    "release": "npx standard-version"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "standard-version": {
+    "scripts": {
+      "postchangelog": "npx prettier --write CHANGELOG.md"
+    }
+  }
+}

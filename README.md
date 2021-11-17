@@ -23,3 +23,9 @@ Add `prepare` and `pro-commit:task` to `scripts` in `package.json`:
   }
 }
 ```
+
+Install to ensure that the `prepare` lifecycle script sets up the Git pre-commit hook:
+
+```sh
+npm install
+```

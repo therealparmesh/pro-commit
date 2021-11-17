@@ -16,7 +16,8 @@
   "bin": "cli.js",
   "scripts": {
     "format": "npx prettier --write *.{js,md}",
-    "release": "npx standard-version"
+    "release": "npx standard-version",
+    "uninstall": "node cleanup.js"
   },
   "prettier": {
     "singleQuote": true,

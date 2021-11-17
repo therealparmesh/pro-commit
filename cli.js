@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 
 const fs = require('fs');
-const dir = '.git/hooks';
-const file = `${dir}/pre-commit`;
+const { dir, file } = require('./constants');
 const body = `
 #!/bin/sh
 

@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/therealparmesh/pro-commit/compare/v1.0.4...v1.1.0) (2021-11-18)
+
+### Features
+
+- add support for core.hooksPath ([c7f595c](https://github.com/therealparmesh/pro-commit/commit/c7f595c1438fc9158d017334a8b23965f939b396))
+
 ### [1.0.4](https://github.com/therealparmesh/pro-commit/compare/v1.0.3...v1.0.4) (2021-11-17)
 
 ### [1.0.3](https://github.com/therealparmesh/pro-commit/compare/v1.0.2...v1.0.3) (2021-11-17)

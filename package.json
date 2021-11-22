@@ -1,6 +1,6 @@
 {
   "name": "pro-commit",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Easily add a Git pre-commit hook to your Node.js project.",
   "keywords": [
     "commit",

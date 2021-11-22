@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/therealparmesh/pro-commit/compare/v1.1.0...v1.2.0) (2021-11-22)
+
+### Features
+
+- update uninstall logic ([1f7865c](https://github.com/therealparmesh/pro-commit/commit/1f7865c86583c81b5225df161e20d01e461ae1af))
+
 ## [1.1.0](https://github.com/therealparmesh/pro-commit/compare/v1.0.4...v1.1.0) (2021-11-18)
 
 ### Features

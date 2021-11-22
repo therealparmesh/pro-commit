@@ -11,20 +11,27 @@
 npm install --save-dev pro-commit
 ```
 
+## Uninstall
+
+```sh
+npm uninstall --save-dev pro-commit
+rm .git/hooks/pre-commit ## change this if the project has a custom Git hooks path
+```
+
 ## Usage
 
-Add `prepare` and `pro-commit:task` to `scripts` in `package.json`:
+Add `postinstall` and `pro-commit:task` to `scripts` in `package.json`:
 
 ```json
 {
   "scripts": {
-    "prepare": "pro-commit",
+    "install": "pro-commit",
     "pro-commit:task": "..."
   }
 }
 ```
 
-Run an install to ensure that the `prepare` lifecycle script sets up a Git pre-commit hook:
+Run an install to ensure that the `postinstall` lifecycle script sets up a Git pre-commit hook:
 
 ```sh
 npm install

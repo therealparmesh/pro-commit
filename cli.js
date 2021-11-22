@@ -1,7 +1,17 @@
 #!/usr/bin/env node
 
+const childProcess = require('child_process');
 const fs = require('fs');
-const { dir, file } = require('./env');
+
+let dir;
+
+try {
+  dir = childProcess.execSync('git config core.hooksPath').toString().trim();
+} catch (e) {
+  dir = '.git/hooks';
+}
+
+const file = `${dir}/pre-commit`;
 
 if (!fs.existsSync(dir)) {
   fs.mkdirSync(dir, { recursive: true });

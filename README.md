@@ -15,7 +15,7 @@ npm install --save-dev pro-commit
 
 ```sh
 npm uninstall --save-dev pro-commit
-rm .git/hooks/pre-commit ## change this if the project has a custom Git hooks path
+rm .git/hooks/pre-commit # change this for projects with custom Git hooks paths
 ```
 
 ## Usage

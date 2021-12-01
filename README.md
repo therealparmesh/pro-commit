@@ -20,12 +20,12 @@ rm .git/hooks/pre-commit # change this for projects with custom Git hooks paths
 
 ## Usage
 
-Add `postinstall` and `pro-commit:task` to `scripts` in `package.json`:
+Add `prepare` and `pro-commit:task` to `scripts` in `package.json`:
 
 ```json
 {
   "scripts": {
-    "install": "pro-commit",
+    "prepare": "pro-commit",
     "pro-commit:task": "..."
   }
 }
